@@ -1,0 +1,44 @@
+.navbar navbar-expand-lg bg-body-tertiary {
+    color: white;
+    background-color: black;
+}
+
+.jumbotron {
+    background-color: white;
+    padding: 30px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+@media (min-width: 576px) {
+    body
+}
+
+
+.card {
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+    border: none;
+}
+
+.skills-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.list-group {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.aboutMe {
+ align-items: center;
+ text-align: center;
+ }
