@@ -17,18 +17,20 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+           <!-- Links -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Skills</a>
+                <a class="nav-link" href="#skills" >Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               </ul>
+
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -52,7 +54,7 @@
 
 
  <!-- Portfolio Cards -->
-
+<div id="portfolio">
  <div class="row row-cols-1 row-cols-md-2">
     <div class="col mb-4">
       <div class="card">
@@ -91,11 +93,13 @@
       </div>
     </div>
   </div>
+</div>
  <!-- Portfolio Cards End -->
 
 
 <!-- Skills List -->
-<h1 class="skills-heading">My Core Skills</h1>
+<div id="skills">
+<h1 class="skills-heading" >My Core Skills</h1>
  <ul class="list-group">
     <li class="list-group-item">HTML</li>
     <li class="list-group-item">CSS</li>
@@ -103,10 +107,12 @@
     <li class="list-group-item">Bootstrap</li>
     <li class="list-group-item">Shopify</li>
   </ul>
+</div>
 <!-- Skills List End -->
 
 
 <!-- About/Contact -->
+<div id="contact">
 <div class="aboutMe">
 <div class="card mb-3">
     <div class="row no-gutters">
@@ -127,6 +133,7 @@
     </div>
   </div>
 </div>
+</div>
 
 <!-- About/Contact End -->
 
@@ -135,78 +142,49 @@
 
 
 
- <!-- Footer -->
+ <!-- Social Media Icons -->
 
+<div class ="row social">
+<div class="container text-center">
+<div class="row justify-content-md-center">
+<div class="col col-lg-12">
 
- <footer class="bg-body-tertiary text-center" class="link-secondary">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="socialIcons">
-
-    <!-- Instagram -->
-     <a href="https://www.instagram.com/whatchristywore/">
-        <img src="Images/instagram.png" alt="instagram logo" style="width:26px;height:26px;">
-      </a>
-
-  
-    <!-- Linkedin -->
-    <a href="https://www.instagram.com/whatchristywore/">
-        <img src="Images/linkedin.png" alt="instagram logo" style="width:26px;height:26px;">
-      </a>
-
-
-     <!-- Github -->
-     <a href="https://www.instagram.com/whatchristywore/">
-        <img src="Images/github.png" alt="instagram logo" style="width:26px;height:26px;">
-      </a>
-    
-      
-    
-    
-    
-    
-    </section>
-      <!-- Section: Social media -->
+<div class="instagram shadow-lg">
+        <div class="col col-lg-1">
+            <a href="https://www.instagram.com/whatchristywore/">
+                <img src="Images/instagram.png" alt="instagram logo" style="width:26px;height:26px;">
+        </a>
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2023 Copyright:
-      <a class="text-body" href="https://mdbootstrap.com/">Christy Llewellyn</a>
+</div>
+
+<div class="linkedin shadow-lg"></div>
+    <div class="col col-lg-1">
+        <a href="https://www.linkedin.com/in/christy-llewellyn-93214999/">
+            <img src="Images/linkedin.png" alt="linkedinlogo" style="width:26px;height:26px;">
+        </a>
     </div>
-    <!-- Copyright -->
-  </footer>
+</div>
+    
+<div class="github shadow-lg"></div>
+    <div class="col col-lg-1">
+        <a href="https://github.com/christyl1992">
+            <img src="Images/github.png" alt="githublogo" style="width:26px;height:26px;">
+        </a>
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="row"></footer>
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2023 Copyright:
+  <a class="text-body" href="https://mdbootstrap.com/">Christy Llewellyn</a>
+</div>
+</footer>
 
 <!-- Footer End-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
-    <!-- THE POPPER.JS SCRIPT IS REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-  </body>
-</html>
-
-
-

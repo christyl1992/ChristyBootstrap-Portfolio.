@@ -53,3 +53,26 @@
 .container p-4 pb-0 {
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
+
+
+
+/*social icons*/
+.instagram:hover {
+    opacity: 50%;
+}
+
+.linkedin:hover {
+    opacity: 50%;
+}
+
+.github:hover {
+    opacity: 50%;
+}
+
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    display: flex;
+}
