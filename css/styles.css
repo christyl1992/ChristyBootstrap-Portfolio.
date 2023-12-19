@@ -42,3 +42,14 @@
  align-items: center;
  text-align: center;
  }
+
+.footer {
+    width: 100%;
+    justify-content: center;
+    text-align: center;socialIcons
+ }
+
+
+.container p-4 pb-0 {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
